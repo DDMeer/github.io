@@ -1,7 +1,7 @@
 ---
 name: Take 2
 tools: [Python, HTML, vega-lite, Jekyll]
-image: assets/pngs/cars.png
+image: assets/pngs/ppp2.png
 description: This is mutiple ways
 custom_js:
   - vega.min

@@ -1,7 +1,7 @@
 ---
 name: First plot display
 tools: [Python, HTML, vega-lite, Jekyll]
-image: assets/pngs/cars.png
+image: assets/pngs/ppp1.png
 description: This is the first plot  that uses vega-lite for interactive viz!
 custom_js:
   - vega.min
