@@ -1,9 +1,8 @@
 ---
-name: First plot display
+name: Plot to Display
 tools: [Python, HTML, vega-lite, Jekyll]
 image: assets/pngs/ppp1.png
-description: This is the first plot  that uses vega-lite for interactive viz!
-custom_js:
+description: This is the final project display:
   - vega.min
   - vega-lite.min
   - vega-embed.min
@@ -11,14 +10,14 @@ custom_js:
 ---
 
 
-# Homework10 plot1
+# Display of final project
 
 Example comes from this [great blog post right here](https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html) that was also used in [our test import script](https://github.com/UIUC-iSchool-DataViz/is445_bcub
 ```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter233.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/jsondashboard.json" style="width: 100%"></vegachart>
 ```
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/scatter233.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/jsondashboard.json" style="width: 100%"></vegachart>
 
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
